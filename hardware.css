@@ -1,0 +1,53 @@
+/* CSS Document */
+
+h2{
+	color:blue;
+	font-size:37px;
+	text-shadow: 4px 4px 8px orange;
+    text-decoration: underline;
+}
+h1{
+	color:orange;
+	font-size:80px;
+	text-shadow: 4px 4px 17px white;
+	test-decoration: underline;
+	border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+	
+p{
+	font-size:30px;
+    border: 2px solid #0E0E0E;
+    border-radius: 12px;
+	color:#CB6530;
+}
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    border-radius: 40%;
+	border-bottom-style:groove;
+	border:solid
+	
+}
+div {
+    background-color: lightgrey;
+    width: 950px;
+    border: 25px solid #3B8FDD ;
+    padding: 25px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

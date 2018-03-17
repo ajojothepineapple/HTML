@@ -1,0 +1,15 @@
+#score{
+	color:blue;
+	font-size:35px;
+}
+ #score {
+    text-shadow: 4px 4px 17px red;
+ }
+#hiScore {
+	color: Red;
+	font-size: 40px;
+}
+#hiScore {
+    text-shadow: 4px 4px 17px blue;
+ }
+

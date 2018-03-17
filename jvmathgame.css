@@ -1,0 +1,46 @@
+/* CSS Document */
+body {margin:10px;}
+
+div.polaroid {	 /*images shawdow box w/ text saying which shape it is*/
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+h1{
+	 color:#562B00; 	/*name that shape heading*/
+	 text-shadow: 2px 5px white;
+	 font-size:70px
+}
+h1.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+div.one {
+    border-style: dotted;  /*Border around the images*/
+    border-width: thick;
+}
+
+div.two {
+    border: 6px solid black;   /*Border around the whole page*/
+    border-radius: 12px;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
