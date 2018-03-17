@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<style> 
+img {
+    border-radius: 40%;
+	border-bottom-style:groove;
+	border:solid
+	
+}
+h2{
+	color:white; 			/* heading*/
+	text-shadow: 2px 5px blue;
+	font-size:50px;
+}
+h1{
+	color:blue; 			/* heading*/
+	text-shadow: 2px 3px white;
+	font-size:30px	
+}
+
+h3{
+	color:blue; 			/* heading*/
+	text-shadow: 2px 3px white;
+	font-size:30px
+}
+body {
+    background-image: url("../_images/image.img.jpg");
+}
+div {
+    background-color:#B3B3B3 ;
+    width: 600px;
+    border: 25px solid #3B8FDD ;
+    padding: 25px;
+    margin: 30px;
+}
+#ranpic {
+	color:white; 			/*player name*/
+	text-shadow: 2px 2px blue;
+	font-size:23px;
+
+
+}
+#date {
+	color:white; 			/*date*/
+	text-shadow: 2px 2px blue;
+	font-size:23px;
+	
+}
+
+
+</style>
+
+
+<meta charset="utf-8">
+<title>Passion Page</title>
+</head>
+
+<center><body>
+<div>
+<h2>Nba Live Mobile!!</h2>
+<h1>Here's The Date</h1>
+<p id="date"></p>
+
+
+<script>
+document.getElementById("date").innerHTML = Date();//gets the date and goes into HTML
+</script>
+<script>
+//all images for the array
+var stephen = '<img src="../_images/steph.jpg" height="450" width="620">';
+var RussellWestbrook = '<img src="../_images/russell.png" height="450" width="620">';
+var LebronJames = '<img src="../_images/lebron.jpg" height="450" width="620">';
+var allteam = '<img src="../_images/allteam.png" height="450" width="620">';
+var KyrieIrving = '<img src="../_images/kyrie.png" height="350" width="620">';
+var wholeteam2 = '<img src="../_images/wholeteam2.png" height="450" width="620">';
+
+function randombballer(){
+
+	var players = [stephen,RussellWestbrook,LebronJames,allteam,KyrieIrving,wholeteam2] // array of images of players
+
+	
+	var anything = players[Math.floor(Math.random()*6)];  // random number and gets a random player
+	document.getElementById("ranpic").innerHTML= anything;
+	
+
+}
+
+</script>
+
+
+ <a href="http://cs.bcp.org/cozort/ecs/cozfall16/antony_ajosh/finalwebpage/index.html">Click to go to Homepage</a>
+<h3>Click the image below to get a player!</h3>
+
+
+
+<p onClick="randombballer()"><img src="https://www.stickboybangkok.com/images/2015/06/who-is-stickboy.jpeg"
+></p> <!-- The image button to show pic of bball players through "ranpic"-->
+
+
+
+<p id="ranpic"></p> <!--The pic of the bball player -->
+</div>
+</body></center>
+</html>
